@@ -1,15 +1,21 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - prints all base 10 numbers,
- * Return: 0 if executed correctly
+ * main - Entry point
+ *
+ * Description: Prints all single digit numbers of base 10 using only the
+ *              putchar function.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int x;
+	int digit;
 
-	for (x = 0; x < 10; x++)
-		printf("%d", x);
-	printf("\n");
+	for (digit = 0; digit < 10; digit++)
+		putchar(digit + '0');
+
+	putchar('\n');
+
 	return (0);
 }
