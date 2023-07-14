@@ -2,7 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Assigns a random number to the variable n and 
+ * prints whether the number is positive, negative, or zero.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -20,4 +27,3 @@ int main(void)
 
 	return (0);
 }
-
