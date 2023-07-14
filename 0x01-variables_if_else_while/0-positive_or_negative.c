@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main is used to assign random numbers
- * Returns 0 if successful
+ * main - used to assign random numbers
+ * Return: 0 if successful
  */
 int main(void)
 {
