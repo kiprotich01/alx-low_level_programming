@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: 0 (Success)
+ * main - starting point
+ * Return: 0 if successful
  */
 int main(void)
 {
-    printf("_putchar\n");
-    return (0);
+	_putchar('x');
+	_putchar('\n');
+	return (0);
 }
